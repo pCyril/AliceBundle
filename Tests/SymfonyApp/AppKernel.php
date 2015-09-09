@@ -21,6 +21,7 @@ use Hautelook\AliceBundle\Tests\SymfonyApp\TestBundle\Bundle\ABundle\TestABundle
 use Hautelook\AliceBundle\Tests\SymfonyApp\TestBundle\Bundle\BBundle\TestBBundle;
 use Hautelook\AliceBundle\Tests\SymfonyApp\TestBundle\Bundle\CBundle\TestCBundle;
 use Hautelook\AliceBundle\Tests\SymfonyApp\TestBundle\Bundle\DBundle\TestDBundle;
+use Hautelook\AliceBundle\Tests\SymfonyApp\TestBundle\Bundle\EmptyBundle\TestEmptyBundle;
 use Hautelook\AliceBundle\Tests\SymfonyApp\TestBundle\TestBundle;
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
 use Symfony\Component\Config\Loader\LoaderInterface;
@@ -42,6 +43,7 @@ class AppKernel extends Kernel
             new TestBBundle(),
             new TestCBundle(),
             new TestDBundle(),
+            new TestEmptyBundle(),
             new PsyshBundle(),
         ];
     }
