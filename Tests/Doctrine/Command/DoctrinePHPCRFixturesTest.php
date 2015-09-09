@@ -11,16 +11,13 @@
 
 namespace Hautelook\AliceBundle\Tests\Doctrine\Command;
 
-use Doctrine\ODM\PHPCR\DocumentManager;
-use Hautelook\AliceBundle\Tests\KernelTestCase;
-use Symfony\Bundle\FrameworkBundle\Console\Application;
 use Symfony\Component\Console\Tester\CommandTester;
 
 /**
  * @author Baldur Rensch <brensch@gmail.com>
  * @author Théo FIDRY <theo.fidry@gmail.com>
  */
-class DoctrinePHPCRFixturesTest extends KernelTestCase
+class DoctrinePHPCRFixturesTest extends CommandTestCase
 {
     protected function setUp()
     {

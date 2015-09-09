@@ -43,7 +43,6 @@ class AppKernel extends Kernel
             new TestBBundle(),
             new TestCBundle(),
             new TestDBundle(),
-            new TestEmptyBundle(),
             new PsyshBundle(),
         ];
     }
