@@ -31,8 +31,8 @@ matrix:
     - php: 7.0
     - php: nightly
     - php: hhvm
-    - env: SYMFONY_VERSION=2.8.*@dev
-    - env: SYMFONY_VERSION="3.0.*@dev"
+    - env: SYMFONY_VERSION=2.8.*
+    - env: SYMFONY_VERSION=3.0.*
     # TODO: Remove those two line when test will be fixed.
     - env: COMPOSER_FLAGS="--prefer-lowest"
 
